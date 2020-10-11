@@ -1,14 +1,19 @@
 <template>
-  <div>soy la pagina resumen</div>
+  <div>
+    <div class="container">
+      <NavBar />
+    </div>
+  </div>
 </template>
 
 <script>
-
+import NavBar from "../components/main/NavBar";
 export default {
-name: 'Resumen',
-}
+  name: "Resumen",
+  components: {
+    NavBar,
+  },
+};
 </script>
 
-<style>
-
-</style>
+<style></style>
