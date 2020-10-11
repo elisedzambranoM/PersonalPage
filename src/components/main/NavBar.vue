@@ -12,7 +12,7 @@
       <router-link to="/" class="nav-link" href="#">HOME<span class="sr-only">(current)</span></router-link>
       <router-link to="/resumen" class="nav-link" href="#">RESUMEN</router-link>
       <a class="nav-link" href="#">PROYECTOS</a>
-      <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">CONTACTO</a>
+     
     </div>
   </div>
 </nav>
