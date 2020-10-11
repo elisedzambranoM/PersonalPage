@@ -10,10 +10,10 @@
   </button>
   <div class="collapse navbar-collapse d-flex ml-5" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-link" href="#">Resumen</a>
-      <a class="nav-link" href="#">Proyectos</a>
-      <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+      <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+      <a class="nav-link" href="#">RESUMEN</a>
+      <a class="nav-link" href="#">PROYECTOS</a>
+      <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">CONTACTO</a>
     </div>
   </div>
 </nav>
@@ -43,6 +43,7 @@ name: 'NavBar'
 }
 .navbar-nav a{
    color: #4D4D4D !important;
+   text-decoration: none;
   }
   .navbar-nav a:hover{
       color: var(--link-color) !important;
@@ -50,6 +51,9 @@ name: 'NavBar'
   }
 .navbar-nav a:active{
     color: var(--link-color) !important;
+    }
+    .nav-link{
+      font-size: 14px;
     }
 
 
