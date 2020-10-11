@@ -1,26 +1,14 @@
 <template>
   <div id="app">
-    <div class="container">
-  <PersonalPageHeader/>
-   </div>
-  <PersonalPageFooter/>
+   <router-view></router-view>
   </div>
 </template>
 
 <script>
-import PersonalPageHeader from './components/Header'
-import PersonalPageFooter from './components/Footer/Footer'
-
-
 
 export default {
-  name: 'App',
-  components: {
-    PersonalPageHeader,
-    PersonalPageFooter,
-    
-   
-  }
+  name: 'App'
+  
 }
 </script>
 
