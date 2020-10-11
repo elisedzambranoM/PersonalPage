@@ -1,5 +1,5 @@
 <template>
-  <div class="container header--main">
+  <div class="header--main">
     <div class="row">
       <div class="col-md-12">
         <NavBar/>

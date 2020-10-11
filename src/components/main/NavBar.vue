@@ -44,6 +44,7 @@ name: 'NavBar'
 .navbar-nav a{
    color: #4D4D4D !important;
    text-decoration: none;
+   font-weight: bold;
   }
   .navbar-nav a:hover{
       color: var(--link-color) !important;

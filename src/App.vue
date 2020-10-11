@@ -1,6 +1,8 @@
 <template>
   <div id="app">
+    <div class="container">
   <PersonalPageHeader/>
+   </div>
   <PersonalPageFooter/>
   </div>
 </template>
