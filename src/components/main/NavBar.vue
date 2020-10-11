@@ -11,7 +11,7 @@
     <div class="navbar-nav">
       <router-link to="/" class="nav-link" href="#">HOME<span class="sr-only">(current)</span></router-link>
       <router-link to="/resumen" class="nav-link" href="#">RESUMEN</router-link>
-      <a class="nav-link" href="#">PROYECTOS</a>
+      <router-link to="/proyectos" class="nav-link" href="#">PROYECTOS</router-link>
      
     </div>
   </div>

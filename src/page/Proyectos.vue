@@ -2,21 +2,22 @@
   <div>
     <div class="container">
       <NavBar />
-      RESUMENNNN
-      <Footer/>
+    Poryectossss
+      <Footer />
     </div>
   </div>
 </template>
 
 <script>
 import NavBar from "../components/main/NavBar";
-import Footer from "../components/Footer/Footer"
+import Footer from "../components/Footer/Footer";
+
 export default {
-  name: "Resumen",
-  components: {
-    NavBar,
-    Footer
-  },
+    name: 'Proyectos',
+    components:{
+        NavBar,
+        Footer
+    }
 };
 </script>
 
