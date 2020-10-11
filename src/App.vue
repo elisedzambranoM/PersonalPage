@@ -7,7 +7,7 @@
 
 <script>
 import PersonalPageHeader from './components/Header'
-import PersonalPageFooter from './components/Footer'
+import PersonalPageFooter from './components/Footer/Footer'
 
 
 
