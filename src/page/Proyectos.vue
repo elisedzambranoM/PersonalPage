@@ -2,7 +2,6 @@
   <div>
     <div class="container">
       <NavBar />
-    Poryectossss
       <Footer />
     </div>
   </div>

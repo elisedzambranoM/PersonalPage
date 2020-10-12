@@ -2,7 +2,7 @@
   <div>
     <div class="container">
       <NavBar />
-      RESUMENNNN
+      <Titulo/>
       <Footer/>
     </div>
   </div>
@@ -10,14 +10,19 @@
 
 <script>
 import NavBar from "../components/main/NavBar";
-import Footer from "../components/Footer/Footer"
+import Footer from "../components/Footer/Footer";
+import Titulo from "../components/resumen/Titulo";
 export default {
   name: "Resumen",
   components: {
     NavBar,
-    Footer
+    Footer,
+    Titulo,
   },
 };
 </script>
 
-<style></style>
+<style scope>
+
+
+</style>
