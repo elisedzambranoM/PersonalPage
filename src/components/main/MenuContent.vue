@@ -1,21 +1,16 @@
 <template>
   <div>
     <div class="d-flex">
-      <div
-        class=" circle-item circle-red d-flex align-items-center justify-content-center mt-3 ml-5"
+      <router-link to="/resumen" class="link__circle circle-item circle-red d-flex align-items-center justify-content-center mt-3 ml-5"
       >
-        <a href="" class="link__circle">MI RESUMEN</a>
-      </div>
-      <div
-        class="circle-item circle-blue d-flex align-items-center justify-content-center mt-3 ml-5"
+        MI RESUMEN
+      </router-link>
+      <router-link to="/proyectos" class="link__circle circle-item circle-blue d-flex align-items-center justify-content-center mt-3 ml-5"
       >
-        <a href="" class="link__circle">MIS PROYECTOS</a>
-      </div>
-      <div
-        class="circle-item circle-green d-flex align-items-center justify-content-center mt-3 ml-5"
-      >
-        <a href="" class="link__circle">HABILIDADES</a>
-      </div>
+      MIS PROYECTOS</router-link>
+      <router-link to="/resumen" class="link__circle circle-item circle-green d-flex align-items-center justify-content-center mt-3 ml-5">
+       HABILIDADES
+      </router-link>
     </div>
     <p class="mt-4 ml-5 content-paragraph">
       I'm a paragraph. Click here to add your own text and edit me. It’s easy.
