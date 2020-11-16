@@ -19,7 +19,7 @@
                 </div>
               </div>
               <div class="col-md-9 d-flex align-items-end">
-                <p>
+                <p class="text_font--13">
                   I'm a paragraph. Click here to add your own text and edit me.
                   It’s easy. Just click “Edit Text” or double click me and you
                   can start adding your own content and make changes to the
@@ -41,7 +41,7 @@
                 </div>
               </div>
               <div class="col-md-9 d-flex align-items-end">
-                <p>
+                <p class="text_font--13">
                   I'm a paragraph. Click here to add your own text and edit me.
                   It’s easy. Just click “Edit Text” or double click me and you
                   can start adding your own content and make changes to the
@@ -58,9 +58,14 @@
         <div class="row">
           <div class="col-md-12">
             <div
-              class="circle__item--blue circle-icon d-flex align-items-center justify-content-center mt-3 ml-5"
+              class="circle__item--blue circle-icon d-flex align-items-center justify-content-center mt-3"
             > <i class="fas fa-exclamation"></i></div>
-          </div>
+            <h6 class="text_font--17  mt-2"> Skills</h6>
+              <hr/>
+              <span class="text_font--13">PHOTOSHOP</span><br>
+              <span class="text_font--13">FLASH</span> <br>
+              <span class="text_font--13">ADD A SKILL</span> <br>
+             </div>
         </div>
       </div>
     </div>
@@ -81,8 +86,7 @@ span {
 }
 li {
   background-color: #EAE5E5 !important;
-  color: #BBB8B8 !important;
-
+  color: #8B8B8B !important;
 }
 
 .circle-title {
@@ -96,16 +100,11 @@ li {
   height: 130px;
   border-radius: 50%;
   transition: 0.5s;
-   background-color: #e83556;
-}
-div p {
-  font-size: 13px;
-  font-family: "Noticia Text", serif;
-  color: #4d4d4d;
+  background-color: #e83556;
 }
 
 .xperience-list li{
-    border-top: 2px solid #BBB8B8 !important;
+  border-top: 2px solid #8B8B8B !important;
 }
 
 .circle__item--blue {
@@ -117,4 +116,22 @@ div p {
   font-size: 17px;
   color: #ffffff 
 }
+.text_font--17{
+  font-family: "Noticia Text", serif;
+  font-size: 17px;
+  color: #4d4d4d;
+}
+
+hr {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 0;
+  border-top: 1px solid #8B8B8B;
+}
+.text_font--13{
+  font-size: 13px;
+  font-family: "Noticia Text", serif;
+  color: #4d4d4d;
+}
+
 </style>

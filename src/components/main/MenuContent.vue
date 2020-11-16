@@ -62,5 +62,7 @@ export default {
 .content-paragraph{
   font-size: 13px;
   padding-right: 25%;
+  font-family: "Noticia Text", serif;
 }
+
 </style>
