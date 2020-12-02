@@ -3,8 +3,8 @@
     <div class="container">
       <NavBar />
       <Titulo/>
-      <Footer/>
     </div>
+      <Footer/>
   </div>
 </template>
 
@@ -12,6 +12,7 @@
 import NavBar from "../components/main/NavBar";
 import Footer from "../components/Footer/Footer";
 import Titulo from "../components/resumen/Titulo";
+
 export default {
   name: "Resumen",
   components: {

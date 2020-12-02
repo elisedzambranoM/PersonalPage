@@ -18,7 +18,7 @@
                   Profesional
                 </div>
               </div>
-              <div class="col-md-9 d-flex  align-items-end">
+              <div class="col-md-9 d-flex align-items-end">
                 <p class="text_font--13">
                   I'm a paragraph. Click here to add your own text and edit me.
                   It’s easy. Just click “Edit Text” or double click me and you
@@ -173,7 +173,7 @@ li {
 }
 
 .xperience-list li {
-  border-top: 2px solid #8b8b8b !important;
+  border-top: 1px solid #8b8b8b !important;
 }
 
 .circle__item--blue {
