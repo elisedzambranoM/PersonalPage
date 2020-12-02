@@ -3,19 +3,19 @@
     <div class="container">
       <PersonalPageHeader />
     </div>
-    <PersonalPageFooter />
+      <PersonalPageFooter />
   </div>
 </template>
 
 <script>
-import PersonalPageHeader from '../components/Header'
-import PersonalPageFooter from '../components/Footer/Footer'
+import PersonalPageHeader from "../components/Header";
+import PersonalPageFooter from "../components/Footer/Footer";
 export default {
-  name: 'Home',
-  components:{
+  name: "Home",
+  components: {
     PersonalPageHeader,
-    PersonalPageFooter
-  }
+    PersonalPageFooter,
+  },
 };
 </script>
 
