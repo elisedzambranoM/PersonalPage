@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-md-6">
         <div
-          id=carouselId
+          :id="'carouselExampleControls' + carouselId"
           class="carousel slide carousel__size"
           data-ride="carousel"
           data-interval="false"
@@ -25,7 +25,7 @@
           </div>
           <a
             class="carousel-control-prev"
-            href="#carouselExampleControls"
+            :href="'#carouselExampleControls' + carouselId"
             role="button"
             data-slide="prev"
           >
@@ -34,7 +34,7 @@
           </a>
           <a
             class="carousel-control-next"
-            href="#carouselExampleControls"
+            :href="'#carouselExampleControls' + carouselId"
             role="button"
             data-slide="next"
           >

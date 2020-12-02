@@ -1,20 +1,20 @@
 <template>
   <div>
     <div class="container">
-      <PersonalPageHeader />
+      <Header />
     </div>
-      <PersonalPageFooter />
+      <Footer />
   </div>
 </template>
 
 <script>
-import PersonalPageHeader from "../components/Header";
-import PersonalPageFooter from "../components/Footer/Footer";
+import Header from "../components/Header";
+import Footer from "../components/Footer/Footer";
 export default {
   name: "Home",
   components: {
-    PersonalPageHeader,
-    PersonalPageFooter,
+    Header,
+    Footer,
   },
 };
 </script>

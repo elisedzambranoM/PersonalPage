@@ -10,7 +10,7 @@
             :title2="miProyecto.titulo"
             :subtitle2="miProyecto.subtitulo"
             :description2="miProyecto.descripcion"
-          
+            :idProject="miProyecto.id"          
           />
         </div>
       </div>

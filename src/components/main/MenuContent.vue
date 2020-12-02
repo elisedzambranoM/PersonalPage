@@ -63,6 +63,7 @@ export default {
   font-size: 13px;
   padding-right: 25%;
   font-family: "Noticia Text", serif;
+  padding-bottom: 9%;
 }
 
 </style>
