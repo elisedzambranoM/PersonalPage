@@ -3,7 +3,7 @@
     <div class="dropdown-divider project__divider"></div>
     <div class="row">
       <div class="col-md-6 mb-4 mt-4">
-        <carousel-projects :carouselId="idProject"/>
+        <carousel-projects :carouselId="idProject" :imagesCarousel="images2"/>
       </div>
       <div class="col-md-6 mb-4 mt-4">
         <project-resume
@@ -31,6 +31,9 @@ export default {
     subtitle2: String,
     description2: String,
     idProject: Number,
+    images2: {
+      type: Array,
+    },
   },
 };
 </script>

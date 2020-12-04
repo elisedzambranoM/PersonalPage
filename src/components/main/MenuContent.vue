@@ -1,23 +1,36 @@
 <template>
   <div>
     <div class="d-flex">
-      <router-link to="/resumen" class="link__circle circle-item circle-red d-flex align-items-center justify-content-center mt-3 ml-5"
+      <router-link
+        to="/resumen"
+        class="link__circle circle-item circle-red d-flex align-items-center justify-content-center mt-3 ml-5"
       >
         MI RESUMEN
       </router-link>
-      <router-link to="/proyectos" class="link__circle circle-item circle-blue d-flex align-items-center justify-content-center mt-3 ml-5"
+      <router-link
+        to="/proyectos"
+        class="link__circle circle-item circle-blue d-flex align-items-center justify-content-center mt-3 ml-5"
       >
-      MIS PROYECTOS</router-link>
-      <router-link to="/resumen" class="link__circle circle-item circle-green d-flex align-items-center justify-content-center mt-3 ml-5">
-       HABILIDADES
+        MIS PROYECTOS</router-link
+      >
+      <router-link
+        to="/resumen"
+        class="link__circle circle-item circle-green d-flex align-items-center justify-content-center mt-3 ml-5"
+      >
+        HABILIDADES
       </router-link>
     </div>
     <p class="mt-4 ml-5 content-paragraph">
-      I'm a paragraph. Click here to add your own text and edit me. It’s easy.
-      Just click “Edit Text” or double click me and you can start adding your
-      own content and make changes to the font. Feel free to drag and drop me
-      anywhere you like on your page. I’m a great place for you to write more.
-      Tell a story and let your users get to know you.
+      Hola me presento soy Elised, soy una persona dinámica, versátil y
+      confiable. Tengo muchos años trabajando en el área de administración y
+      contabilidad, y desde hace unos meses atrás, tomé la decisión de darle un
+      giro a mi vida laboral, por lo que decidí inscribirme en un curso de
+      Front-End dictado por EDUTECNO, ya que me llama la atención el diseño de
+      interfaces de usuarios. Soy newbie en este mundo de la informática, aun
+      así, tengo la mayor disposición de todas para aprender y desarrollar mi
+      perfil profesional como desarrolladora. Me siento con la confianza de
+      afrontar este nuevo reto, ya que, en mis 10 años de experiencia laboral,
+      me he topado con circunstancias retadoras que me exigieron evolucionar.
     </p>
   </div>
 </template>
@@ -59,11 +72,10 @@ export default {
 .circle-green:hover {
   background-color: #837e1e;
 }
-.content-paragraph{
+.content-paragraph {
   font-size: 13px;
   padding-right: 25%;
   font-family: "Noticia Text", serif;
   padding-bottom: 9%;
 }
-
 </style>
