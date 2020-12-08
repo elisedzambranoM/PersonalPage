@@ -1,56 +1,87 @@
 <template>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <agile class="agile">
-          <div
-            class="slide"
-            v-for="(image, index) in imagesCarousel"
-            :key="index"
-          >
-            <img :src="image" alt="" />
-          </div>
-          <template class="nextButton" slot="prevButton"
-            ><i class="fas fa-chevron-left"></i
-          ></template>
-          <template slot="nextButton"
-            ><i class="fas fa-chevron-right"></i
-          ></template>
-        </agile>
-      </div>
-    </div>
-  </div>
+<div class="slide">
+    <Slider
+      animation="fade"
+      v-model="sliderValue"
+      :duration="5000"
+      :speed="1000"
+    >
+      <SliderItem
+        v-for="(i, index) in imagesCarousel"
+        :key="index"
+        @click="changeIndex(1);"
+        :style="i"
+      >
+      <img :src="i" alt="" />
+    </SliderItem>
+    </Slider>
+</div>
 </template>
 
 <script>
-import { VueAgile } from "vue-agile";
+
+import { Slider, SliderItem } from "vue-easy-slider";
+
 
 export default {
   name: "CarouselProjects",
 
-  components: {
-    agile: VueAgile,
+components: {
+    Slider,
+    SliderItem
+  },
+props: {
+  imagesCarousel: {
+    type: Array,
+   }
   },
 
   data() {
     return {
-      perpage: 1,
+      list: [],
+      sliderValue: 2
     };
   },
-
-  props: {
-    carouselId: Number,
-    imagesCarousel: {
-      type: Array,
-    },
+  methods: {
+    changeIndex(index) {
+      this.sliderValue = index;
+    }
   },
+  mounted() {
+    setTimeout(
+      () =>
+        (this.list = [
+          {
+            width: "100%",
+            height: "100%"
+          },
+          {          
+            width: "100%",
+            height: "100%"
+          },
+          {          
+            width: "100%",
+            height: "100%"
+          },
+          {           
+            width: "100%",
+            height: "100%"
+          }
+        ]),
+      1000
+    );
+  }
 };
 </script>
 
-<style scoped>
-.agile > .agile__actions > button{
-    background-color: #ffffff00;
-    border: none;
-
+<style>
+.slide {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  margin-top: 60px;
 }
-</style>
+
+p {
+  margin: 0;
+}
