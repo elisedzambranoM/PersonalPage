@@ -1,14 +1,12 @@
 <template>
 <div class="slide">
     <Slider
-      animation="fade"
-      v-model="sliderValue"
-      :duration="5000"
-      :speed="1000"
+      animation="fade" 
+      :autoplay="autoplay"       
     >
       <SliderItem
         v-for="(i, index) in imagesCarousel"
-        :key="index"
+        :key="index+i"
         @click="changeIndex(1);"
         :style="i"
       >
@@ -25,13 +23,13 @@ import { Slider, SliderItem } from "vue-easy-slider";
 
 export default {
   name: "CarouselProjects",
-
+ 
 components: {
     Slider,
     SliderItem
   },
 props: {
-  imagesCarousel: {
+   imagesCarousel: {
     type: Array,
    }
   },
@@ -39,7 +37,8 @@ props: {
   data() {
     return {
       list: [],
-      sliderValue: 2
+      autoplay: false
+      
     };
   },
   methods: {
@@ -47,30 +46,7 @@ props: {
       this.sliderValue = index;
     }
   },
-  mounted() {
-    setTimeout(
-      () =>
-        (this.list = [
-          {
-            width: "100%",
-            height: "100%"
-          },
-          {          
-            width: "100%",
-            height: "100%"
-          },
-          {          
-            width: "100%",
-            height: "100%"
-          },
-          {           
-            width: "100%",
-            height: "100%"
-          }
-        ]),
-      1000
-    );
-  }
+
 };
 </script>
 
