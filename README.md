@@ -1,5 +1,7 @@
 # portafolio
 
+Página personal sobre mi experiencia profesional, y mis proyectos más relevantes
+
 ## Project setup
 ```
 npm install
