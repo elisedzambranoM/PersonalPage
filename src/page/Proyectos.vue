@@ -54,7 +54,7 @@ export default {
           titulo: "Project | 01",
           subtitulo: "Jugueteria Otto Klaus",
           descripcion:
-            "I'm a Paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to write more. Tell a story about yourself.",
+            "El proyecto fue diseñado en base a los requerimientos solicitados en clase, donde una Juguetería ficticia llamada OTTO KLAUS, solicita la creación de un sistema de inventario que permita al usuario loguearse para que a través del sistema pueda agregar, editar y eliminar un juguete. Creado con Vue, y como apoyo para el desarrollo de la interfaz de usuario se utilizó Vuetify. La autenticación del usuario se hizo con Firebase.",
           images: [images, images2, images3, images4, images5],
         },
         {
@@ -96,7 +96,7 @@ export default {
 </script>
 
 <style scoped>
-.title_main{
+.title_main {
   margin-top: 50px;
 }
 </style>
