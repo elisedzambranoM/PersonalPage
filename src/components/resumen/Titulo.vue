@@ -12,21 +12,143 @@
             <div class="row">
               <div class="col-md-3">
                 <div
-                  class=" circle__item--red circle-title d-flex align-items-center justify-content-center mt-3 ml-5"
+                  class="circle__item--red circle-title d-flex align-items-center justify-content-center mt-3 ml-5"
                 >
                   Info <br />
                   Profesional
                 </div>
               </div>
               <div class="col-md-9 d-flex align-items-end">
-                <p class="text_font--13">
-                  I'm a paragraph. Click here to add your own text and edit me.
-                  It’s easy. Just click “Edit Text” or double click me and you
-                  can start adding your own content and make changes to the
-                  font. Feel free to drag and drop me anywhere you like on your
-                  page. I’m a great place for you to write more. Tell a story
-                  about yourself.
+                <p class="text_font--13 my-auto">
+                  En este viaje que estoy iniciando, quiero enfocar mi perfil
+                  hacia el FRONT-END, ya que me interesa el diseño de interfaces
+                  y usabilidad, y para lograrlo comencé trabajando con
+                  tecnologías tales como HTML, CSS, JavaScript, Vue, Bootstrap,
+                  Vuetify.
                 </p>
+              </div>
+            </div>
+          </li>
+
+ <li class="list-group-item">
+            <div class="row">
+              <div class="col-md-3">
+                <div
+                  class="circle__item--red circle-title d-flex align-items-center justify-content-center mt-3 ml-5"
+                >
+                  Formación
+                </div>
+              </div>
+              <div class="col-md-9 d-flex flex-column align-items-start">
+                <h6 class="text_font--17 mt-3">
+                  <strong
+                    >Programación en C de Cero a Experto con Estructuras de
+                    Datos 2020</strong
+                  >
+                </h6>
+                <h6 class="text_font--17">
+                  <strong>Udemy</strong>
+                </h6>
+                <h6 class="text_font--17"><strong>2020</strong></h6>
+                <p class="text_font--13">
+                  En la actualidad estoy realizando este curso con la finalidad
+                  de afianzar mis conocimientos en lógica de programación, y
+                  conocer las estructuras de datos comúnmente usadas, con un
+                  lenguaje de programación enfocado más hacia el ámbito
+                  profesional, como es el Lenguaje C
+                </p>
+                <h6 class="text_font--17 mt-3">
+                  <strong
+                    >Fundamentos y lógicas de programación con PSeInt
+                    2020</strong
+                  >
+                </h6>
+                <h6 class="text_font--17">
+                  <strong>Udemy</strong>
+                </h6>
+                <h6 class="text_font--17"><strong>2020</strong></h6>
+                <p class="text_font--13">
+                  Durante el curso aprendí a crear algoritmos y pseudocódigos, a
+                  través de la herramienta PSeInt. La finalidad de haber tomado
+                  este curso, fue para mejorar la calidad en la resolución de
+                  problemas, y entender mejor cómo funciona la lógica de
+                  programación.
+                </p>
+                <h6 class="text_font--17 mt-3">
+                  <strong>Certificada en Scrum Foundations</strong>
+                </h6>
+                <h6 class="text_font--17">
+                  <strong>CertiProf</strong>
+                </h6>
+                <h6 class="text_font--17"><strong>2020</strong></h6>
+                <p class="text_font--13">
+                  Realice una prueba de certificación que avala mis
+                  conocimientos en los fundamentos básicos de Scrum, la
+                  metodología de trabajo para el desarrollo ágil de software que
+                  hoy en día es referente mundialmente.
+                </p>
+                <h6 class="text_font--17 mt-3">
+                  <strong
+                    >Desarrollador de Aplicaciones FRONT-END Trainne</strong
+                  >
+                </h6>
+                <h6 class="text_font--17">
+                  <strong>Edutecno</strong>
+                </h6>
+                <h6 class="text_font--17">
+                  <strong>Jul 2020 - Nov 2020</strong>
+                </h6>
+                <p class="text_font--13">
+                  Realice un curso de desarrollo de aplicaciones web, que duró
+                  cuatro meses, en una modalidad de clases intensiva, donde se
+                  desarrollaban desafíos prácticos, según las clases impartidas
+                  en cada sesión. Durante el curso se tocaron temas desde lo más
+                  básico para introducirnos a la programación, hasta llegar a
+                  frameworks más complejos. Lo visto durante el curso fue
+                  (HTML/CSS), control de versiones con GIT, diseño responsive
+                  con Bootstrap y buenas prácticas, flujo de trabajo con
+                  preprocesadores como SASS, hasta técnicas de posicionamiento
+                  avanzado, uso de SVG, animaciones, JavaScript con la versión
+                  actualizada de ES6+, jQuery, API REST, Fundamentos Vue JS, Vue
+                  Router, VUEX, Testing, CRUD API Rest, Deploy de Aplicaciones y
+                  Firebase
+                </p>
+                <h6 class="text_font--17 mt-3">
+                  <strong>Especialista en Gerencia Tributaria Integral</strong>
+                </h6>
+                <h6 class="text_font--17">
+                  <strong
+                    >Universidad Nororiental Gran Mariscal de Ayacucho - UGMA
+                    (Venezuela)</strong
+                  >
+                </h6>
+                <h6 class="text_font--17">
+                  <strong>Feb 2008 - Abr 2010</strong>
+                </h6>
+                <h6 class="text_font--17 mt-3">
+                  <strong>Licenciatura, Administración de Empresas</strong>
+                </h6>
+                <h6 class="text_font--17">
+                  <strong
+                    >Universidad Tecnológica del Centro (UNITEC)
+                    (Venezuela)</strong
+                  >
+                </h6>
+                <h6 class="text_font--17">
+                  <strong>Ago 2002 - Jul 2007</strong>
+                </h6>
+                <h6 class="text_font--17 mt-3">
+                  <strong>Técnico Superior en Marketing</strong>
+                </h6>
+                <h6 class="text_font--17">
+                  <strong
+                    >Universidad Tecnológica del Centro (UNITEC)
+                    (Venezuela)</strong
+                  >
+                </h6>
+                <h6 class="text_font--17">
+                  <strong>Ago 2002 - May 2005</strong>
+                </h6>
               </div>
             </div>
           </li>
@@ -34,79 +156,67 @@
             <div class="row">
               <div class="col-md-3">
                 <div
-                  class=" circle__item--red circle-title d-flex align-items-center justify-content-center mt-3 ml-5"
+                  class="circle__item--red circle-title d-flex align-items-center justify-content-center mt-3 ml-5"
                 >
-                  Work <br />
-                  Experience
+                  Experiencia <br />
+                  Laboral
                 </div>
               </div>
               <div class="col-md-9 d-flex flex-column align-items-start">
-                <h6 class="text_font--17 mt-5"><strong>Job position</strong></h6>
-                <h6 class="text_font--17"><strong>2010 - Present</strong></h6>
+                <h6 class="text_font--17 mt-3">
+                  <strong>Soporte Administrativo - Dpto Administración</strong>
+                </h6>
+                <h6 class="text_font--17">
+                  <strong
+                    >Investigaciones y datos SPA, In-Data (Santiago –
+                    Chile)</strong
+                  >
+                </h6>
+                <h6 class="text_font--17">
+                  <strong>Jun 2018 - Nov 2020</strong>
+                </h6>
                 <p class="text_font--13">
-                  I'm a paragraph. Click here to add your own text and edit me.
-                  It’s easy. Just click “Edit Text” or double click me and you
-                  can start adding your own content and make changes to the
-                  font. Feel free to drag and drop me anywhere you like on your
-                  page. I’m a great place for you to write more. Tell a story
-                  about yourself.
+                  Tenia la responsabilidad de facturar las ventas, emitir
+                  órdenes de compra, gestionar las licitaciones en las que
+                  participa la empresa para el estado, pagos de proveedores,
+                  manejo de las cuentas por cobrar y pagar; y apoyo general en
+                  el manejo interno de la oficina.
                 </p>
-                <h6 class="text_font--17 mt-3"><strong>Job position</strong></h6>
-                <h6 class="text_font--17"><strong>2010 - Present</strong></h6>
+                <h6 class="text_font--17 mt-3">
+                  <strong>Analista de compras - Dpto Compras</strong>
+                </h6>
+                <h6 class="text_font--17">
+                  <strong>ALServilab SCC (Quito – Ecuador)</strong>
+                </h6>
+                <h6 class="text_font--17">
+                  <strong>Jul 2016 - Nov 2017</strong>
+                </h6>
                 <p class="text_font--13">
-                  I'm a paragraph. Click here to add your own text and edit me.
-                  It’s easy. Just click “Edit Text” or double click me and you
-                  can start adding your own content and make changes to the
-                  font. Feel free to drag and drop me anywhere you like on your
-                  page. I’m a great place for you to write more. Tell a story
-                  about yourself.
+                  Entre las responsabilidades designadas las principales ligadas
+                  a mi cargo eran la facturación a instituciones públicas y
+                  privadas, elaboración de hojas de rutas para distribución,
+                  gestión de ordenes de compras, control de stock, negociaciones
+                  con proveedores y atención a clientes mayorista.
                 </p>
-                <h6 class="text_font--17 mt-3"><strong>Job position</strong></h6>
-                <h6 class="text_font--17"><strong>2010 - Present</strong></h6>
+                <h6 class="text_font--17 mt-3">
+                  <strong>Administradora - Dpto Administración</strong>
+                </h6>
+                <h6 class="text_font--17">
+                  <strong>JPC APPS, C.A. (Puerto Ordaz –Venezuela)</strong>
+                </h6>
+                <h6 class="text_font--17">
+                  <strong>Feb 2014 - Dic 2015</strong>
+                </h6>
                 <p class="text_font--13">
-                  I'm a paragraph. Click here to add your own text and edit me.
-                  It’s easy. Just click “Edit Text” or double click me and you
-                  can start adding your own content and make changes to the
-                  font. Feel free to drag and drop me anywhere you like on your
-                  page. I’m a great place for you to write more. Tell a story
-                  about yourself.
-                </p>
-              </div>  
-            </div>
-          </li>
-           <li class="list-group-item">
-            <div class="row">
-              <div class="col-md-3">
-                <div
-                  class=" circle__item--red circle-title d-flex align-items-center justify-content-center mt-3 ml-5"
-                >
-                  Eduacation
-                </div>
-              </div>
-              <div class="col-md-9 d-flex flex-column align-items-start">
-                <h6 class="text_font--17 mt-5"><strong>University name</strong></h6>
-                <h6 class="text_font--17"><strong>2010 - Present</strong></h6>
-                <p class="text_font--13">
-                  I'm a paragraph. Click here to add your own text and edit me.
-                  It’s easy. Just click “Edit Text” or double click me and you
-                  can start adding your own content and make changes to the
-                  font. Feel free to drag and drop me anywhere you like on your
-                  page. I’m a great place for you to write more. Tell a story
-                  about yourself.
-                </p>
-                <h6 class="text_font--17 mt-3"><strong>University name</strong></h6>
-                <h6 class="text_font--17"><strong>2010 - Present</strong></h6>
-                <p class="text_font--13">
-                  I'm a paragraph. Click here to add your own text and edit me.
-                  It’s easy. Just click “Edit Text” or double click me and you
-                  can start adding your own content and make changes to the
-                  font. Feel free to drag and drop me anywhere you like on your
-                  page. I’m a great place for you to write more. Tell a story
-                  about yourself.
+                  Mis principales asignaciones eran las compras de equipos de
+                  computación, supervisión de los desarrolladores, cálculos de
+                  nómina y beneficio, control del funcionamiento de la oficina,
+                  cálculo y declaración de impuestos y elaboración y
+                  actualización de libros contables.
                 </p>
               </div>
             </div>
-          </li>
+          </li>     
         </ul>
       </div>
       <div class="col-md-2">
@@ -117,11 +227,14 @@
             >
               <i class="fas fa-exclamation"></i>
             </div>
-            <h6 class="text_font--17  mt-2">Skills</h6>
+            <h6 class="text_font--17 mt-2">TECNOLOGÍAS</h6>
             <hr />
-            <span class="text_font--13">PHOTOSHOP</span><br />
-            <span class="text_font--13">FLASH</span> <br />
-            <span class="text_font--13">ADD A SKILL</span> <br />
+            <span class="text_font--13">HMTL</span><br />
+            <span class="text_font--13">CSS</span> <br />
+            <span class="text_font--13">JAVASCRIPT</span> <br />
+            <span class="text_font--13">BOOTSTRAP</span> <br />
+            <span class="text_font--13">VUE</span> <br />
+            <span class="text_font--13">VUETIFY</span> <br />
           </div>
           <div class="col-md-12 mt-5">
             <div
@@ -129,13 +242,12 @@
             >
               <i class="fas fa-globe"></i>
             </div>
-            <h6 class="text_font--17  mt-2">Lenguajes</h6>
+            <h6 class="text_font--17 mt-2">Idiomas</h6>
             <hr />
-            <span class="text_font--13">PHOTOSHOP</span><br />
-            <span class="text_font--13">FLASH</span> <br />
-            <span class="text_font--13">ADD A SKILL</span> <br />
-          </div>
-         </div>
+            <span class="text_font--13">ESPAÑOL - NATIVO</span><br />
+            <span class="text_font--13">INGLÉS - MEDIO</span> <br />
+            </div>
+        </div>
       </div>
     </div>
   </div>
@@ -198,7 +310,7 @@ hr {
   border-top: 1px solid #8b8b8b;
 }
 .text_font--13 {
-  font-size: 13px;
+  font-size: 14px;
   font-family: "Noticia Text", serif;
   color: #4d4d4d;
 }

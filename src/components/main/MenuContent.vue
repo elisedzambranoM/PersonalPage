@@ -21,16 +21,16 @@
       </router-link>
     </div>
     <p class="mt-4 ml-5 content-paragraph">
-      Hola me presento soy Elised, soy una persona dinámica, versátil y
-      confiable. Tengo muchos años trabajando en el área de administración y
-      contabilidad, y desde hace unos meses atrás, tomé la decisión de darle un
-      giro a mi vida laboral, por lo que decidí inscribirme en un curso de
-      Front-End dictado por EDUTECNO, ya que me llama la atención el diseño de
-      interfaces de usuarios. Soy newbie en este mundo de la informática, aun
-      así, tengo la mayor disposición de todas para aprender y desarrollar mi
-      perfil profesional como desarrolladora. Me siento con la confianza de
-      afrontar este nuevo reto, ya que, en mis 10 años de experiencia laboral,
-      me he topado con circunstancias retadoras que me exigieron evolucionar.
+     <strong>&lt;HelloWorld /></strong> Soy Elised, newbie en este mundo del desarrollo web, tengo
+      muchos años de trayectoria en el área de Administración y Contabilidad. En
+      Marzo 2020, tomé la decisión de darle un giro a mi vida laboral,
+      inscribiéndome en un curso de desarrollador de aplicaciones FRONT-END.
+      Termine el curso motivada, y con ganas de formar parte de un equipo de
+      trabajo, donde pueda profundizar y aplicar los conocimientos adquiridos.
+      Mi objetivo en esta nueva etapa laboral es lograr, a mediano plazo,
+      desarrollar habilidades que me ayuden a construir software de calidad. En
+      esta página podrás conocerme un poco más y como me estoy desenvolviendo en
+      esta área.
     </p>
   </div>
 </template>
@@ -73,7 +73,7 @@ export default {
   background-color: #837e1e;
 }
 .content-paragraph {
-  font-size: 13px;
+  font-size: 14px;
   padding-right: 25%;
   font-family: "Noticia Text", serif;
   padding-bottom: 9%;
