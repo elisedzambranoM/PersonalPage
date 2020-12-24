@@ -54,7 +54,7 @@ export default {
   color: #4d4d4d;
 }
 .text_font--13 {
-  font-size: 13px;
+  font-size: 14px;
   font-family: "Noticia Text", serif;
   color: #4d4d4d;
 }

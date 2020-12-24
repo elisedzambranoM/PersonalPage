@@ -32,10 +32,10 @@ name: 'NavBar'
 }
 .title--main{
     font-weight: bold;
-    font-size: 43px;
+    font-size: 50px;
 }
 .subtitle--main{
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
 }
 .navbar-nav a{
@@ -51,7 +51,7 @@ name: 'NavBar'
     color: var(--link-color) !important;
     }
     .nav-link{
-      font-size: 14px;
+      font-size: 15px;
     }
 
 

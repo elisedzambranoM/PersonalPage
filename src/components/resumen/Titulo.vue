@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12 title_main">
         <span class="mt-5 border-bottoms">RESUMEN</span>
       </div>
     </div>
@@ -29,8 +29,7 @@
               </div>
             </div>
           </li>
-
- <li class="list-group-item">
+          <li class="list-group-item">
             <div class="row">
               <div class="col-md-3">
                 <div
@@ -216,7 +215,7 @@
                 </p>
               </div>
             </div>
-          </li>     
+          </li>
         </ul>
       </div>
       <div class="col-md-2">
@@ -227,7 +226,7 @@
             >
               <i class="fas fa-exclamation"></i>
             </div>
-            <h6 class="text_font--17 mt-2">TECNOLOGÍAS</h6>
+            <h6 class="text_font--17 mt-2">Tecnologías</h6>
             <hr />
             <span class="text_font--13">HMTL</span><br />
             <span class="text_font--13">CSS</span> <br />
@@ -246,7 +245,7 @@
             <hr />
             <span class="text_font--13">ESPAÑOL - NATIVO</span><br />
             <span class="text_font--13">INGLÉS - MEDIO</span> <br />
-            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -260,10 +259,13 @@ export default {
 </script>
 
 <style scope>
+.title_main{
+  margin-top: 50px;
+}
 span {
   color: #4d4d4d;
   font-family: "Noticia Text", serif;
-  font-size: 80px;
+  font-size: 60px;
 }
 li {
   background-color: #eae5e5 !important;

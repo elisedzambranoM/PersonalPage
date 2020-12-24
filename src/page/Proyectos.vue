@@ -2,9 +2,8 @@
   <div>
     <div class="container">
       <NavBar />
-      <div class="col-md-12">
+      <div class="col-md-12 title_main">
         <span class="mt-5">MIS PROYECTOS</span>
-
         <div v-for="miProyecto in misProyectos" :key="miProyecto.id">
           <project-item
             :title2="miProyecto.titulo"
@@ -53,7 +52,7 @@ export default {
         {
           id: 1,
           titulo: "Project | 01",
-          subtitulo: "Project | 01 title",
+          subtitulo: "Jugueteria Otto Klaus",
           descripcion:
             "I'm a Paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to write more. Tell a story about yourself.",
           images: [images, images2, images3, images4, images5],
@@ -61,7 +60,7 @@ export default {
         {
           id: 2,
           titulo: "Project | 02",
-          subtitulo: "Project | 02 title",
+          subtitulo: "Gigeo",
           descripcion:
             "I'm a Paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to write more. Tell a story about yourself.",
           images: [images6, images7],
@@ -69,7 +68,7 @@ export default {
         {
           id: 3,
           titulo: "Project | 03",
-          subtitulo: "Project | 03 title",
+          subtitulo: "Tía Tomate",
           descripcion:
             "I'm a Paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to write more. Tell a story about yourself.",
           images: [images8, images9, images10],
@@ -77,7 +76,7 @@ export default {
         {
           id: 4,
           titulo: "Project | 04",
-          subtitulo: "Project | 03 title",
+          subtitulo: "Nasa App",
           descripcion:
             "I'm a Paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to write more. Tell a story about yourself.",
           images: [images11, images12],
@@ -85,7 +84,7 @@ export default {
         {
           id: 5,
           titulo: "Project | 05",
-          subtitulo: "Project | 03 title",
+          subtitulo: "Poke Api",
           descripcion:
             "I'm a Paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to write more. Tell a story about yourself.",
           images: [images13, images14, images15],
@@ -96,4 +95,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.title_main{
+  margin-top: 50px;
+}
+</style>

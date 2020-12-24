@@ -41,5 +41,5 @@ export default {
 <style scoped>
 .project__divider {
   border-top: 1px solid #8b8b8b !important;
-}</style
->>
+}
+</style>
