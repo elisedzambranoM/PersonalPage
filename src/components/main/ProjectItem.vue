@@ -10,6 +10,7 @@
           :title="title2"
           :subtitle="subtitle2"
           :description="description2"
+          :url="gitHubUrl"
         />
       </div>
     </div>
@@ -30,6 +31,7 @@ export default {
     title2: String,
     subtitle2: String,
     description2: String,
+    gitHubUrl:String,
     idProject: Number,
     images2: {
       type: Array,

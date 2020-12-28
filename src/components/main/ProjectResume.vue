@@ -5,16 +5,21 @@
         <div
           class="circle-item circle-blue text__circle d-flex align-items-center justify-content-center"
         >
-         {{ title}}
+          {{ title }}
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
-        <h6 class="text_font--17">{{subtitle}}</h6>
+        <h6 class="text_font--17">{{ subtitle }}</h6>
         <p class="text_font--13 mt-4">
-        {{description}}
+          {{ description }}
         </p>
+        <b
+          ><a :href="url" target="_blank" class="text_font--13"
+            >VER CÓDIGO</a
+          ></b
+        >
       </div>
     </div>
   </div>
@@ -25,10 +30,11 @@ export default {
   name: "ProjectResume",
 
   props: {
-  title: String,
-  subtitle: String,
-  description: String,
-  }
+    title: String,
+    subtitle: String,
+    description: String,
+    url: String,
+  },
 };
 </script>
 
@@ -57,5 +63,12 @@ export default {
   font-size: 14px;
   font-family: "Noticia Text", serif;
   color: #4d4d4d;
+}
+a {
+  color: #4d4d4d !important;
+  text-decoration: underline;
+}
+a:hover {
+  color: #61D0D6 !important;
 }
 </style>

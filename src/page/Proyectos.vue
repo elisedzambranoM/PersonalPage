@@ -9,6 +9,7 @@
             :title2="miProyecto.titulo"
             :subtitle2="miProyecto.subtitulo"
             :description2="miProyecto.descripcion"
+            :gitHubUrl="miProyecto.url"
             :idProject="miProyecto.id"
             :images2="miProyecto.images"
           />
@@ -55,6 +56,7 @@ export default {
           subtitulo: "Jugueteria Otto Klaus",
           descripcion:
             "El proyecto fue diseñado en base a los requerimientos solicitados en clase, donde una Juguetería ficticia llamada OTTO KLAUS, solicita la creación de un sistema de inventario que permita al usuario loguearse para que a través del sistema pueda agregar, editar y eliminar un juguete. Creado con Vue, y como apoyo para el desarrollo de la interfaz de usuario se utilizó Vuetify. La autenticación del usuario se hizo con Firebase.",
+          url: "https://github.com/elisedzambranoM/Otto-klaus",
           images: [images, images2, images3, images4, images5],
         },
         {
@@ -62,7 +64,8 @@ export default {
           titulo: "Project | 02",
           subtitulo: "Gigeo",
           descripcion:
-            "I'm a Paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to write more. Tell a story about yourself.",
+            "Gigeo App es una simulación de una plataforma de video, la cual partiendo de un mockup, se solicitó desarrollar una maqueta en HTML y CSS,  se creó la estructura del proyecto en Sass basado en el patrón 7-1, se utilizó Bootstrap como framework para el diseño del front, además se creó la estructura del HTML usando como sistema de nomenclatura la metodología BEM. La maqueta fue diagramada responsive, funciona tanto para aplicaciones mobiles como desktop.",
+          url: "https://github.com/elisedzambranoM/Gigeo-App",
           images: [images6, images7],
         },
         {
@@ -70,7 +73,8 @@ export default {
           titulo: "Project | 03",
           subtitulo: "Tía Tomate",
           descripcion:
-            "I'm a Paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to write more. Tell a story about yourself.",
+            "En esta aplicación ficticia, partiendo de un mockup, se realizó el diseño de una maqueta en HTML y CSS, con una estructura de proyecto basada en Sass, en esta página solo se trabajó en la versión de la página ACERCA DE.",
+          url: "https://github.com/elisedzambranoM/Tiatomate",
           images: [images8, images9, images10],
         },
         {
@@ -78,7 +82,8 @@ export default {
           titulo: "Project | 04",
           subtitulo: "Nasa App",
           descripcion:
-            "I'm a Paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to write more. Tell a story about yourself.",
+            "Proyecto creado como práctica, usando como framework Vue y Vuetify. Consta de una vista principal que te permite loguearte, al hacerlo pasas a una siguiente vista, en la que se puede observar un calendario, al momento de seleccionar una fecha la imagen y la descripción de esta cambian, según el día seleccionado. La autenticación del usuario se hizo con firebase, para navegar a través de las páginas se uso el router de VUE.",
+          url: "https://github.com/elisedzambranoM/Nasa-demo",
           images: [images11, images12],
         },
         {
@@ -87,6 +92,7 @@ export default {
           subtitulo: "Poke Api",
           descripcion:
             "I'm a Paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to write more. Tell a story about yourself.",
+          url: "https://github.com/elisedzambranoM/PokeGuia",
           images: [images13, images14, images15],
         },
       ],
