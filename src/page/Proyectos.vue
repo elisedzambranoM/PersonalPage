@@ -73,7 +73,7 @@ export default {
           titulo: "Project | 03",
           subtitulo: "Tía Tomate",
           descripcion:
-            "En esta aplicación ficticia, partiendo de un mockup, se realizó el diseño de una maqueta en HTML y CSS, con una estructura de proyecto basada en Sass, en esta página solo se trabajó en la versión de la página ACERCA DE.",
+            "En esta aplicación ficticia, partiendo de un mockup, se realizó el diseño de una maqueta en HTML y CSS, con una estructura de proyecto basada en Sass,solo se trabajó en la versión de la página ACERCA DE.",
           url: "https://github.com/elisedzambranoM/Tiatomate",
           images: [images8, images9, images10],
         },
@@ -89,10 +89,10 @@ export default {
         {
           id: 5,
           titulo: "Project | 05",
-          subtitulo: "Poke Api",
+          subtitulo: "Pokedex",
           descripcion:
-            "I'm a Paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to write more. Tell a story about yourself.",
-          url: "https://github.com/elisedzambranoM/PokeGuia",
+            "Se construyó una página web estática, que permitiera a los usuarios conocer información acerca de los pokemones, cuenta con un input que al introducir el número de un pokemon y clickear el botón de buscar, consulta a la pokeapi (la consulta se realizó con ajax) y trae información como la foto frontal, nombre y peso, además de las habilidades y movimientos, las cuales se muestra en un gráfico que se integro usando un plugins de CANVAS js.",
+          url: "https://github.com/elisedzambranoM/Pokedex",
           images: [images13, images14, images15],
         },
       ],
