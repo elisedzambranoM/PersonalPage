@@ -10,8 +10,9 @@
       <h5>{{content}}</h5>
       <div v-if="showIcons == 'true'">
         <a href="https://github.com/elisedzambranoM" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/elised-zambrano-mart%C3%ADn-ba286911a/"><i class="fab fa-linkedin ml-2"></i></a> 
+        <a href="https://www.linkedin.com/in/elised-zambrano-mart%C3%ADn-ba286911a/" target="_blank"><i class="fab fa-linkedin ml-2"></i></a> 
       </div>
+      <div><span class="footerItem--title">{{version}}</span></div>
     </div>  
 
   </div>
@@ -25,6 +26,7 @@ export default {
       icon: String,
       content: String,
       showIcons: String,
+      version: String,
     }
 
 
@@ -32,6 +34,7 @@ export default {
 </script>
 
 <style scope>
+
 .footerItem--icon{
    width: 45px;
   height: 45px;
@@ -44,19 +47,21 @@ export default {
   
 }
 .footerItem--title{
-   color: #ffffff;
+  color: #ffffff;
   font-family: "Noticia Text", serif;
   font-size: 13px;
   font-weight: bold;
-}
+ }
 h5{
   font-size: 12px;
   color: #ffffff;
+  margin-bottom: 0;
 }
-div i{
+.footerItem--title div a i{
   font-size: 20px;
 }
-div a:visited {
+.footerItem--title div a:visited i {
   color:#ffffff
 }
+
 </style>
