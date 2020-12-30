@@ -55,7 +55,7 @@ export default {
           titulo: "Project | 01",
           subtitulo: "Jugueteria Otto Klaus",
           descripcion:
-            "El proyecto fue diseñado en base a los requerimientos solicitados en clase, donde una Juguetería ficticia llamada OTTO KLAUS, solicita la creación de un sistema de inventario que permita al usuario loguearse para que a través del sistema pueda agregar, editar y eliminar un juguete. Creado con Vue, y como apoyo para el desarrollo de la interfaz de usuario se utilizó Vuetify. La autenticación del usuario se hizo con Firebase.",
+            "El proyecto fue diseñado en base a los requerimientos solicitados en clase, donde una Juguetería ficticia llamada OTTO KLAUS, solicita la creación de un sistema de inventario. El sistema debe permitir identificar al usuario por un sistema de logueo,  el usuario identificado puede agregar, editar y eliminar juguetes por medio de consumo de API. El sistema esta creado utilzando Vue, como apoyo para el desarrollo de la interfaz de usuario se utilizó Vuetify y la autenticación del usuario se hizo con Firebase.",
           url: "https://github.com/elisedzambranoM/Otto-klaus",
           images: [images, images2, images3, images4, images5],
         },
@@ -64,7 +64,7 @@ export default {
           titulo: "Project | 02",
           subtitulo: "Gigeo",
           descripcion:
-            "Gigeo App es una simulación de una plataforma de video, la cual partiendo de un mockup, se solicitó desarrollar una maqueta en HTML y CSS,  se creó la estructura del proyecto en Sass basado en el patrón 7-1, se utilizó Bootstrap como framework para el diseño del front, además se creó la estructura del HTML usando como sistema de nomenclatura la metodología BEM. La maqueta fue diagramada responsive, funciona tanto para aplicaciones mobiles como desktop.",
+            "Gigeo App es una simulación de una plataforma de video, la cual partiendo de un mockup, se solicitó desarrollar una maqueta en HTML y CSS, se creó la estructura del proyecto en Sass basado en el patrón 7-1, se utilizó Bootstrap como framework para el diseño del front, además se creó la estructura del HTML usando como sistema de nomenclatura la metodología BEM. La maqueta fue enfocada al responsive design, funcionando tanto para dispositivos mobiles como desktop",
           url: "https://github.com/elisedzambranoM/Gigeo-App",
           images: [images6, images7],
         },
@@ -82,7 +82,7 @@ export default {
           titulo: "Project | 04",
           subtitulo: "Nasa App",
           descripcion:
-            "Proyecto creado como práctica, usando como framework Vue y Vuetify. Consta de una vista principal que te permite loguearte, al hacerlo pasas a una siguiente vista, en la que se puede observar un calendario, al momento de seleccionar una fecha la imagen y la descripción de esta cambian, según el día seleccionado. La autenticación del usuario se hizo con firebase, para navegar a través de las páginas se uso el router de VUE.",
+            "Proyecto de práctica enfocado en el consumo de api y utilizar frameworks como Vue y Vuetify. Consta de una vista principal que te permite loguearte, ya identificado pasas a una siguiente vista, en la que se puede observar un calendario; Cuando el usuario dentro de la aplicación selecciona una fecha la imagen y la descripción de esta cambian según el día seleccionado. La autenticación del usuario se hizo con firebase, para navegar a través de las páginas se uso el router de VUE.",
           url: "https://github.com/elisedzambranoM/Nasa-demo",
           images: [images11, images12],
         },
@@ -91,7 +91,7 @@ export default {
           titulo: "Project | 05",
           subtitulo: "Pokedex",
           descripcion:
-            "Se construyó una página web estática, que permitiera a los usuarios conocer información acerca de los pokemones, cuenta con un input que al introducir el número de un pokemon y clickear el botón de buscar, consulta a la pokeapi (la consulta se realizó con ajax) y trae información como la foto frontal, nombre y peso, además de las habilidades y movimientos, las cuales se muestra en un gráfico que se integro usando un plugins de CANVAS js.",
+            "Se construyó una página web estática, que permitiera a los usuarios conocer información acerca de los pokemones. La página cuenta con un input, que al introducir el número de un pokemon y clickear el botón de buscar, la app consulta a la pokeapi (la consulta se realizó con ajax) y trae información como la foto frontal, nombre peso, habilidades y movimientos, las cuales se muestra en un gráfico que se integro usando un plugins de CANVAS js.",
           url: "https://github.com/elisedzambranoM/Pokedex",
           images: [images13, images14, images15],
         },

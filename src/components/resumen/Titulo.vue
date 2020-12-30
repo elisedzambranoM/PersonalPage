@@ -48,7 +48,7 @@
                 <h6 class="text_font--17">
                   <strong>Udemy</strong>
                 </h6>
-                <h6 class="text_font--17"><strong>2020</strong></h6>
+                <h6 class="text_font--17"><strong>Actualmente</strong></h6>
                 <p class="text_font--13">
                   En la actualidad estoy realizando este curso con la finalidad
                   de afianzar mis conocimientos en lógica de programación, y
@@ -65,7 +65,7 @@
                 <h6 class="text_font--17">
                   <strong>Udemy</strong>
                 </h6>
-                <h6 class="text_font--17"><strong>2020</strong></h6>
+                <h6 class="text_font--17"><strong>Dic - 2020</strong></h6>
                 <p class="text_font--13">
                   Durante el curso aprendí a crear algoritmos y pseudocódigos, a
                   través de la herramienta PSeInt. La finalidad de haber tomado
@@ -79,7 +79,7 @@
                 <h6 class="text_font--17">
                   <strong>CertiProf</strong>
                 </h6>
-                <h6 class="text_font--17"><strong>2020</strong></h6>
+                <h6 class="text_font--17"><strong>Nov - 2020</strong></h6>
                 <p class="text_font--13">
                   Realice una prueba de certificación que avala mis
                   conocimientos en los fundamentos básicos de Scrum, la

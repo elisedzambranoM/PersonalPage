@@ -4,7 +4,7 @@
       <div class="row pt-5 pb-4">
         <FooterItem title="Contacto" content="elised.zambrano@gmail.com" icon="far fa-envelope" class="col-md-4" showIcons="false" />
         <FooterItem title="Sigueme" icon="fas fa-plus" class="col-md-4" showIcons="true" />
-        <FooterItem title="Creado Por" content='Elised Zambrano, Con Vue JS' icon="far fa-copyright" class="col-md-4" showIcons="false" version="v:1.0.0"/>
+        <FooterItem title="Creado Por" content='Elised Zambrano, Con Vue JS' icon="far fa-copyright" class="col-md-4" showIcons="false" version="v.1.1.0"/>
         </div>
     </div>
   </div>

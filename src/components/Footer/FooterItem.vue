@@ -44,7 +44,6 @@ export default {
 .footerItem--icon i{
   color:  #e83556;
   font-size: 30px;
-  
 }
 .footerItem--title{
   color: #ffffff;
