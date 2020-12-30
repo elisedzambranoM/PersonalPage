@@ -73,7 +73,7 @@ export default {
           titulo: "Project | 03",
           subtitulo: "Tía Tomate",
           descripcion:
-            "En esta aplicación ficticia, partiendo de un mockup, se realizó el diseño de una maqueta en HTML y CSS, con una estructura de proyecto basada en Sass,solo se trabajó en la versión de la página ACERCA DE.",
+            "En esta aplicación ficticia, partiendo de un mockup, se realizó el diseño de una maqueta en HTML y CSS, con una estructura de proyecto basada en Sass, solo se trabajó en la versión de la página ACERCA DE.",
           url: "https://github.com/elisedzambranoM/Tiatomate",
           images: [images8, images9, images10],
         },
@@ -82,7 +82,7 @@ export default {
           titulo: "Project | 04",
           subtitulo: "Nasa App",
           descripcion:
-            "Proyecto de práctica enfocado en el consumo de api y utilizar frameworks como Vue y Vuetify. Consta de una vista principal que te permite loguearte, ya identificado pasas a una siguiente vista, en la que se puede observar un calendario; Cuando el usuario dentro de la aplicación selecciona una fecha la imagen y la descripción de esta cambian según el día seleccionado. La autenticación del usuario se hizo con firebase, para navegar a través de las páginas se uso el router de VUE.",
+            "Proyecto de práctica enfocado en el consumo de api y utilizar frameworks como Vue y Vuetify. Consta de una vista principal que te permite loguearte, ya identificado pasas a una siguiente vista, en la que se puede observar un calendario; cuando el usuario dentro de la aplicación selecciona una fecha la imagen y la descripción de esta cambian según el día seleccionado. La autenticación del usuario se hizo con firebase, para navegar a través de las páginas se uso el router de VUE.",
           url: "https://github.com/elisedzambranoM/Nasa-demo",
           images: [images11, images12],
         },
