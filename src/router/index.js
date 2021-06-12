@@ -12,17 +12,26 @@ const routes = [
         path: '/',
         name: 'Home',
         component: Home,
+        meta:{
+            title:'home',
+        }
     },
     {
         path:'/resumen',
         name: 'Resumen',
-        component: Resumen
-
+        component: Resumen,
+        meta:{
+            title: 'resumen',
+        }  
     },
     {
         path:'/proyectos',
         name:'Proyectos',
-        component: Proyectos
+        component: Proyectos,
+        meta:{
+            title:'proyectos',
+        }
+
     },
 
 ]
@@ -32,5 +41,11 @@ const router = new VueRouter({
     base: process.env.BASE_URL,
     routes
   })
+
+router.beforeEach((toRoute, fromRoute, next) =>{
+    window.document.title = toRoute.meta && toRoute.meta.title ? toRoute.meta.title : 'Home';
+
+    next();
+})
   
   export default router
