@@ -235,7 +235,7 @@
             <span class="text_font--13">VUE</span> <br />
             <span class="text_font--13">VUETIFY</span> <br />
           </div>
-          <div class="col-md-12 mt-5">
+          <div class="col-md-12 mt-5 media-responsive">
             <div
               class="circle__item--blue circle-icon d-flex align-items-center justify-content-center mt-3"
             >
@@ -259,6 +259,18 @@ export default {
 </script>
 
 <style scope>
+@media (max-width: 425px) {
+  .circle__item--red{
+  width: 100px !important;
+  height: 100px !important;
+  }
+ .circle-title {
+  font-size: 14px !important; 
+ } 
+.media-responsive{
+  margin-top: 20px !important;
+}
+}
 .title_main{
   margin-top: 50px;
 }
