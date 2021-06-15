@@ -1,11 +1,11 @@
 <template>
-  <div class="row no-gutter">
-    <div class="col-md-2">
+  <div class="row no-gutter mb-3">
+    <div class="col-xs-2">
       <div class="footerItem--icon d-flex align-items-center justify-content-center">
       <i :class="icon"></i>
       </div>
     </div>
-    <div class="col-md-10 footerItem--title">
+    <div class="col-xs-10 footerItem--title ml-2">
       {{title}}
       <h5>{{content}}</h5>
       <div v-if="showIcons == 'true'">
