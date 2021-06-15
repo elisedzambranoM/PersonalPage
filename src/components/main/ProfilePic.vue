@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div class="photo-profile">
     <img
       :src="foto"
       alt="Profile image"
-      class="mt-5 img--profile"
+      class="mt-5 img--profile img-fluid"
     />
   </div>
 </template>
