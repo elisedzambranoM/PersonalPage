@@ -3,19 +3,19 @@
     <div class="d-flex">
       <router-link
         to="/resumen"
-        class="link__circle circle-item circle-red d-flex align-items-center justify-content-center mt-3 ml-5"
+        class="link__circle circle-item circle-red d-flex align-items-center justify-content-center"
       >
-        MI RESUMEN
+        RESUMEN
       </router-link>
       <router-link
         to="/proyectos"
-        class="link__circle circle-item circle-blue d-flex align-items-center justify-content-center mt-3 ml-5"
+        class="link__circle circle-item circle-blue d-flex align-items-center justify-content-center"
       >
-        MIS PROYECTOS</router-link
+        PROYECTOS</router-link
       >
       <router-link
         to="/resumen"
-        class="link__circle circle-item circle-green d-flex align-items-center justify-content-center mt-3 ml-5"
+        class="link__circle circle-item circle-green d-flex align-items-center justify-content-center"
       >
         HABILIDADES
       </router-link>
@@ -45,11 +45,20 @@ export default {
 </script>
 
 <style scoped>
+@media (max-width: 425px) {
+  .circle-item {
+  width: 100px !important;
+  height: 100px !important;
+  margin: 5px !important;
+  }
+}
+
 .circle-item {
   width: 130px;
   height: 130px;
   border-radius: 50%;
   transition: 0.5s;
+  margin: 15px;
 }
 .circle-red {
   background-color: #e83556;
