@@ -3,19 +3,19 @@
     <div class="d-flex">
       <router-link
         to="/resumen"
-        class="link__circle circle-item circle-red d-flex align-items-center justify-content-center"
+        class="gtm_GA link__circle circle-item circle-red d-flex align-items-center justify-content-center"
       >
         RESUMEN
       </router-link>
       <router-link
         to="/proyectos"
-        class="link__circle circle-item circle-blue d-flex align-items-center justify-content-center"
+        class="gtm_GA link__circle circle-item circle-blue d-flex align-items-center justify-content-center"
       >
         PROYECTOS</router-link
       >
       <router-link
         to="/resumen"
-        class="link__circle circle-item circle-green d-flex align-items-center justify-content-center"
+        class="gtm_GA link__circle circle-item circle-green d-flex align-items-center justify-content-center"
       >
         HABILIDADES
       </router-link>

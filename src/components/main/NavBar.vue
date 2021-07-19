@@ -9,9 +9,9 @@
   </button>
   <div class="collapse navbar-collapse d-flex ml-5" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <router-link to="/" class="nav-link" href="#">HOME<span class="sr-only">(current)</span></router-link>
-      <router-link to="/resumen" class="nav-link" href="#">RESUMEN</router-link>
-      <router-link to="/proyectos" class="nav-link" href="#">PROYECTOS</router-link>
+      <router-link to="/" class="nav-link gtm_GA" href="#">HOME<span class="sr-only">(current)</span></router-link>
+      <router-link to="/resumen" class="nav-link gtm_GA" href="#">RESUMEN</router-link>
+      <router-link to="/proyectos" class="nav-link gtm_GA" href="#">PROYECTOS</router-link>
      
     </div>
   </div>

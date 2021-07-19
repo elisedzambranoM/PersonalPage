@@ -16,7 +16,7 @@
           {{ description }}
         </p>
         <b
-          ><a :href="url" target="_blank" class="text_font--13"
+          ><a :href="url" target="_blank" class="gtm_GA text_font--13"
             >VER CÓDIGO</a
           ></b
         >
