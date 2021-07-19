@@ -9,8 +9,8 @@
       {{title}}
       <h5>{{content}}</h5>
       <div v-if="showIcons == 'true'">
-        <a href="https://github.com/elisedzambranoM" target="_blank"><i class="gtm_GA fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/elised-zambrano-mart%C3%ADn-ba286911a/" target="_blank"><i class="gtm_GA fab fa-linkedin ml-2"></i></a> 
+        <a href="https://github.com/elisedzambranoM" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/elised-zambrano-mart%C3%ADn-ba286911a/" target="_blank"><i class="fab fa-linkedin ml-2"></i></a> 
       </div>
       <div><span class="footerItem--title">{{version}}</span></div>
     </div>  
